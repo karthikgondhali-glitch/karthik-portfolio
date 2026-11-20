@@ -506,6 +506,27 @@ export default function ProjectModal({ project, onClose, onShowToast }) {
                 <ExternalLink size={13} color="var(--color-on-surface-variant)" />
               </a>
             )}
+
+            {project.demoUrl && (
+              <a
+                href={project.demoUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="btn-editorial-primary"
+                style={{
+                  padding: '10px 18px',
+                  fontSize: '13px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                  textDecoration: 'none'
+                }}
+                title="Launch Live Project Website"
+              >
+                <span>Live Website</span>
+                <ExternalLink size={13} />
+              </a>
+            )}
           </div>
 
           <button 

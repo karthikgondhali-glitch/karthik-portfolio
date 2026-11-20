@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { featuredProjects } from '../data/portfolioData';
 import { Github } from './BrandIcons';
+import { ExternalLink } from 'lucide-react';
 
 export default function Projects({ onOpenCaseStudy, onSelectProject }) {
   const [selectedFilter, setSelectedFilter] = useState('all');
@@ -458,7 +459,7 @@ export default function Projects({ onOpenCaseStudy, onSelectProject }) {
                     {project.domain}
                   </span>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     {project.githubUrl && (
                       <a
                         href={project.githubUrl}
@@ -468,7 +469,7 @@ export default function Projects({ onOpenCaseStudy, onSelectProject }) {
                         style={{
                           display: 'inline-flex',
                           alignItems: 'center',
-                          gap: '6px',
+                          gap: '5px',
                           padding: '5px 10px',
                           borderRadius: '6px',
                           border: '1px solid var(--color-outline-variant)',
@@ -485,6 +486,35 @@ export default function Projects({ onOpenCaseStudy, onSelectProject }) {
                       >
                         <Github size={13} />
                         <span>Code</span>
+                      </a>
+                    )}
+
+                    {project.demoUrl && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: '5px',
+                          padding: '5px 10px',
+                          borderRadius: '6px',
+                          border: '1px solid var(--color-outline-variant)',
+                          backgroundColor: 'var(--color-surface-container)',
+                          color: 'var(--color-accent)',
+                          fontFamily: 'var(--font-label)',
+                          fontSize: '12px',
+                          fontWeight: 600,
+                          textDecoration: 'none',
+                          transition: 'all var(--duration-state-change) var(--ease-state-change)'
+                        }}
+                        className="hover:border-accent"
+                        title={`Open Live ${project.title} Website`}
+                      >
+                        <span>Live</span>
+                        <ExternalLink size={12} />
                       </a>
                     )}
 

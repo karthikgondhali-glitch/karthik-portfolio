@@ -6,6 +6,52 @@
  * Update links, descriptions, skills, and projects as your journey progresses!
  */
 
+/**
+ * ====================================================================
+ * 🔗 QUICK LINKS CONFIGURATION — PASTE YOUR LINKS HERE!
+ * ====================================================================
+ * To add or update your GitHub repository and live website links,
+ * simply change the URLs in this object.
+ * Every card and preview modal will automatically update!
+ */
+export const projectLinks = {
+  // 1. UdyamSetu (GovTech / FinTech / AI)
+  udyamSetu: {
+    githubUrl: "https://github.com/karthikgondhali-glitch/udyamsetu", // <-- PASTE GITHUB REPO HERE
+    demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE (e.g. "https://udyamsetu.vercel.app") or null
+  },
+
+  // 2. Focus Buddy (IoT / ESP32)
+  focusBuddy: {
+    githubUrl: "https://github.com/karthikgondhali-glitch/focus-buddy-esp32", // <-- PASTE GITHUB REPO HERE
+    demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
+  },
+
+  // 3. Moodify Mirror (IoT / AI)
+  moodifyMirror: {
+    githubUrl: "https://github.com/karthikgondhali-glitch/moodify-mirror", // <-- PASTE GITHUB REPO HERE
+    demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
+  },
+
+  // 4. Cravely – Reels2Meals (FoodTech / Voice AI)
+  cravely: {
+    githubUrl: "https://github.com/karthikgondhali-glitch/cravely-reels2meals", // <-- PASTE GITHUB REPO HERE
+    demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
+  },
+
+  // 5. NeuroFeed (EdTech / AI)
+  neuroFeed: {
+    githubUrl: "https://github.com/karthikgondhali-glitch/neurofeed-ai", // <-- PASTE GITHUB REPO HERE
+    demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
+  },
+
+  // 6. CrisisGrid AI (AI / Disaster Relief)
+  crisisGrid: {
+    githubUrl: "https://github.com/karthikgondhali-glitch/crisisgrid-ai", // <-- PASTE GITHUB REPO HERE
+    demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
+  }
+};
+
 export const personalData = {
   name: "KARTHIK V.G.",
   greeting: "Hello, I'm",
@@ -264,8 +310,8 @@ export const featuredProjects = [
     ],
     technologies: ["Java", "React", "Gemini API", "Bhashini", "Firebase", "REST APIs"],
     architectureHighlights: "Modular client-server pipeline combining Bhashini speech-to-text with Gemini reasoning modules to map unstructured applicant queries directly to indexed government scheme criteria.",
-    githubUrl: "https://github.com/karthik-vg/udyamsetu", // Configurable
-    demoUrl: null, // Set link when deployed or leave null for interactive details
+    githubUrl: projectLinks.udyamSetu.githubUrl,
+    demoUrl: projectLinks.udyamSetu.demoUrl,
     hasDemoModal: true,
     accentGlow: "from-purple-500/20 to-blue-500/20"
   },
@@ -288,8 +334,8 @@ export const featuredProjects = [
     ],
     technologies: ["ESP32", "C / C++", "OLED (I2C)", "Ultrasonic Sensor", "Servo Control", "FreeRTOS"],
     architectureHighlights: "Interrupt-driven C++ firmware running on ESP32 with state-machine task scheduling for timing accuracy, debounced hardware inputs, and non-blocking sensor telemetry.",
-    githubUrl: "https://github.com/karthik-vg/focus-buddy-esp32",
-    demoUrl: null,
+    githubUrl: projectLinks.focusBuddy.githubUrl,
+    demoUrl: projectLinks.focusBuddy.demoUrl,
     hasDemoModal: true,
     accentGlow: "from-cyan-500/20 to-emerald-500/20"
   },
@@ -312,8 +358,8 @@ export const featuredProjects = [
     ],
     technologies: ["ESP32-CAM", "WS2812B LEDs", "MAX98357A I2S", "Gemini API", "MicroSD", "C++"],
     architectureHighlights: "Hybrid architecture where the ESP32 captures camera buffers, securely transmits Base64 streams over Wi-Fi to a cloud inference hook, and drives peripheral I2S audio and WS2812B PWM simultaneously.",
-    githubUrl: "https://github.com/karthik-vg/moodify-mirror",
-    demoUrl: null,
+    githubUrl: projectLinks.moodifyMirror.githubUrl,
+    demoUrl: projectLinks.moodifyMirror.demoUrl,
     hasDemoModal: true,
     accentGlow: "from-violet-500/20 to-pink-500/20"
   },
@@ -335,8 +381,8 @@ export const featuredProjects = [
     ],
     technologies: ["React", "Python", "Gemini 1.5 Flash", "Bhashini API", "Speech Recognition", "REST"],
     architectureHighlights: "Utilizes Gemini 1.5's large multimodal context window for end-to-end recipe extraction paired with Bhashini's speech models for seamless Indic speech transcription.",
-    githubUrl: "https://github.com/karthik-vg/cravely-reels2meals",
-    demoUrl: null,
+    githubUrl: projectLinks.cravely.githubUrl,
+    demoUrl: projectLinks.cravely.demoUrl,
     hasDemoModal: true,
     accentGlow: "from-amber-500/20 to-orange-500/20"
   },
@@ -358,8 +404,8 @@ export const featuredProjects = [
     ],
     technologies: ["React", "Generative AI Prompts", "Supabase", "Knowledge Graph Architecture", "Tailwind"],
     architectureHighlights: "Hierarchical concept decomposition pipeline using structured prompting to produce progressive scaffolding based on student self-assessments.",
-    githubUrl: "https://github.com/karthik-vg/neurofeed-ai",
-    demoUrl: null,
+    githubUrl: projectLinks.neuroFeed.githubUrl,
+    demoUrl: projectLinks.neuroFeed.demoUrl,
     hasDemoModal: true,
     accentGlow: "from-blue-500/20 to-indigo-500/20"
   },
@@ -381,8 +427,8 @@ export const featuredProjects = [
     ],
     technologies: ["React", "Node.js", "Gemini AI", "Geo-Spatial Mapping", "IndexedDB Offline Cache"],
     architectureHighlights: "Resilient offline-first state architecture using client-side indexing and lightweight sync protocols when connection restores.",
-    githubUrl: "https://github.com/karthik-vg/crisisgrid-ai",
-    demoUrl: null,
+    githubUrl: projectLinks.crisisGrid.githubUrl,
+    demoUrl: projectLinks.crisisGrid.demoUrl,
     hasDemoModal: true,
     accentGlow: "from-rose-500/20 to-purple-500/20"
   }
