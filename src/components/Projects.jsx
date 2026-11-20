@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { featuredProjects } from '../data/portfolioData';
+import { Github } from './BrandIcons';
 
 export default function Projects({ onOpenCaseStudy, onSelectProject }) {
   const [selectedFilter, setSelectedFilter] = useState('all');
@@ -442,7 +443,9 @@ export default function Projects({ onOpenCaseStudy, onSelectProject }) {
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     paddingTop: '12px',
-                    borderTop: '1px solid var(--color-outline-variant)'
+                    borderTop: '1px solid var(--color-outline-variant)',
+                    gap: '10px',
+                    flexWrap: 'wrap'
                   }}
                 >
                   <span 
@@ -455,22 +458,53 @@ export default function Projects({ onOpenCaseStudy, onSelectProject }) {
                     {project.domain}
                   </span>
 
-                  <span 
-                    style={{
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: '4px',
-                      fontFamily: 'var(--font-label)',
-                      fontSize: '13px',
-                      fontWeight: 600,
-                      color: 'var(--color-accent)'
-                    }}
-                  >
-                    <span>Inspect specs</span>
-                    <span className="material-symbols-outlined text-[16px] transition-transform duration-state-change group-hover:translate-x-1" aria-hidden="true">
-                      arrow_forward
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: '6px',
+                          padding: '5px 10px',
+                          borderRadius: '6px',
+                          border: '1px solid var(--color-outline-variant)',
+                          backgroundColor: 'var(--color-surface-container)',
+                          color: 'var(--color-on-surface)',
+                          fontFamily: 'var(--font-label)',
+                          fontSize: '12px',
+                          fontWeight: 600,
+                          textDecoration: 'none',
+                          transition: 'all var(--duration-state-change) var(--ease-state-change)'
+                        }}
+                        className="hover:border-accent hover:text-accent"
+                        title={`View ${project.title} on GitHub`}
+                      >
+                        <Github size={13} />
+                        <span>Code</span>
+                      </a>
+                    )}
+
+                    <span 
+                      style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        fontFamily: 'var(--font-label)',
+                        fontSize: '13px',
+                        fontWeight: 600,
+                        color: 'var(--color-accent)'
+                      }}
+                    >
+                      <span>Inspect specs</span>
+                      <span className="material-symbols-outlined text-[16px] transition-transform duration-state-change group-hover:translate-x-1" aria-hidden="true">
+                        arrow_forward
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </div>
               </div>
             </article>

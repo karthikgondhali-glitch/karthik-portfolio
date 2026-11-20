@@ -107,6 +107,30 @@ export default function ProjectModal({ project, onClose, onShowToast }) {
               >
                 {project.title}
               </h2>
+
+              {project.githubUrl && (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                    fontSize: '12px',
+                    fontFamily: 'var(--font-mono)',
+                    color: 'var(--color-accent)',
+                    textDecoration: 'none',
+                    marginTop: '4px',
+                    width: 'fit-content'
+                  }}
+                  className="hover:underline"
+                >
+                  <Github size={13} />
+                  <span>View GitHub Repository</span>
+                  <ExternalLink size={12} />
+                </a>
+              )}
             </div>
 
             <button 
@@ -441,23 +465,48 @@ export default function ProjectModal({ project, onClose, onShowToast }) {
         {/* Drawer Editorial Footer */}
         <footer 
           style={{
-            padding: '24px',
+            padding: '20px 24px',
             borderTop: '1px solid var(--color-outline-variant)',
             backgroundColor: 'var(--color-surface-container-low)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            gap: '12px'
+            gap: '12px',
+            flexWrap: 'wrap'
           }}
         >
-          <button 
-            type="button" 
-            onClick={onClose} 
-            className="btn-editorial-secondary"
-            style={{ padding: '10px 18px', fontSize: '13px' }}
-          >
-            Close preview
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <button 
+              type="button" 
+              onClick={onClose} 
+              className="btn-editorial-secondary"
+              style={{ padding: '10px 18px', fontSize: '13px' }}
+            >
+              Close preview
+            </button>
+
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="btn-editorial-secondary"
+                style={{
+                  padding: '10px 18px',
+                  fontSize: '13px',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                  textDecoration: 'none'
+                }}
+                title="Open GitHub Repository"
+              >
+                <Github size={15} />
+                <span>Source Code</span>
+                <ExternalLink size={13} color="var(--color-on-surface-variant)" />
+              </a>
+            )}
+          </div>
 
           <button 
             type="button" 

@@ -139,7 +139,7 @@ export default function ResumeModal({ onClose, onShowToast }) {
               <span>•</span>
               <span>{personalData.contact.email}</span>
               <span>•</span>
-              <span>github.com/karthik-vg</span>
+              <span>github.com/karthikgondhali-glitch</span>
             </div>
           </div>
 

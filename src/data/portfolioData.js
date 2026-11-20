@@ -29,7 +29,7 @@ export const personalData = {
   // Contact Information
   contact: {
     email: "karthikvg.official@gmail.com", // Replace with your primary email
-    github: "https://github.com/karthik-vg", // Update with your actual GitHub profile link
+    github: "https://github.com/karthikgondhali-glitch",
     linkedin: "https://www.linkedin.com/in/karthik-v-g/", // Update with your actual LinkedIn URL
     location: "Bengaluru, Karnataka, India",
     college: "Gopalan College of Engineering and Management, Bengaluru"
