@@ -1,0 +1,108 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2390 >>
+stream
+BT
+/F2 22 Tf
+50 780 Td
+(KARTHIK V.G.) Tj
+0 -24 Td
+/F2 11 Tf
+(Computer Science & Engineering Student | Aspiring Backend Developer | AI Enthusiast) Tj
+0 -18 Td
+/F1 9 Tf
+(Email: karthikvg.official@gmail.com | Bengaluru, Karnataka, India | Degree: B.E. CSE) Tj
+0 -28 Td
+/F2 12 Tf
+(ACADEMIC BACKGROUND) Tj
+0 -16 Td
+/F2 10 Tf
+(Gopalan College of Engineering and Management, Bengaluru) Tj
+0 -14 Td
+/F1 9 Tf
+(Bachelor of Engineering in Computer Science and Engineering - Undergraduate Student) Tj
+0 -14 Td
+(Coursework: Data Structures & Algorithms, Java OOP, DBMS, Operating Systems, Networks) Tj
+0 -26 Td
+/F2 12 Tf
+(CORE TECHNICAL COMPETENCIES) Tj
+0 -16 Td
+/F1 9 Tf
+(Programming: Java (Core, OOP, Collections), JavaScript (ES6+), Programming Fundamentals) Tj
+0 -14 Td
+(Frontend: React, HTML5, CSS3, Responsive Web Design) Tj
+0 -14 Td
+(Backend & Database: Backend Development Fundamentals, Firebase, Supabase, API Integration) Tj
+0 -14 Td
+(AI & Dev Tools: Google AI Studio, Gemini AI, Git and GitHub, Google Stitch, Bhashini) Tj
+0 -26 Td
+/F2 12 Tf
+(FEATURED PROJECTS & PROTOTYPES) Tj
+0 -16 Td
+/F2 10 Tf
+(1. UdyamSetu - GovTech / FinTech / AI Platform [Working Prototype]) Tj
+0 -14 Td
+/F1 9 Tf
+(- AI-powered platform helping MSMEs discover schemes, understand eligibility and prepare docs.) Tj
+0 -13 Td
+(- Multilingual Indic voice support powered by Bhashini API paired with Gemini AI reasoning.) Tj
+0 -16 Td
+/F2 10 Tf
+(2. Focus Buddy - ESP32 Smart Pomodoro Companion [Working Prototype]) Tj
+0 -14 Td
+/F1 9 Tf
+(- 25/5-min Pomodoro timer with 0.96-inch OLED, ultrasonic presence sensing, servo & buzzer cues.) Tj
+0 -16 Td
+/F2 10 Tf
+(3. Moodify Mirror - IoT / Multimodal AI Smart Mirror [Working Prototype]) Tj
+0 -14 Td
+/F1 9 Tf
+(- ESP32-CAM prototype evaluating facial expressions via Gemini API and adapting LEDs & audio.) Tj
+0 -16 Td
+/F2 10 Tf
+(4. Cravely - Reels2Meals [FoodTech / Vernacular Voice AI Concept]) Tj
+0 -14 Td
+/F1 9 Tf
+(- Converts video reels and vernacular voice instructions into categorized grocery lists.) Tj
+0 -26 Td
+/F2 12 Tf
+(HACKATHONS & RECOGNITION) Tj
+0 -16 Td
+/F1 9 Tf
+(- Tech4Bharat Hackathon: Built indigenous technology solutions for Indian MSME access.) Tj
+0 -14 Td
+(- Decode Hackathon: Ranked among Top 100 teams for technical feasibility and architecture.) Tj
+0 -14 Td
+(- BEMS College Hackathon: Collaborative rapid prototype sprint under live jury evaluation.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000257 00000 n 
+0000002699 00000 n 
+0000002769 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2844
+%%EOF
