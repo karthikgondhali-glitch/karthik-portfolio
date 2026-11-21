@@ -11,7 +11,7 @@ const content = [
   '(Computer Science & Engineering Student | Aspiring Backend Developer | AI Enthusiast) Tj',
   '0 -18 Td',
   '/F1 9 Tf',
-  '(Email: karthikvg.official@gmail.com | Bengaluru, Karnataka, India | Degree: B.E. CSE) Tj',
+  '(Email: kvg0068@gmail.com | Bengaluru, Karnataka, India | Degree: B.E. CSE) Tj',
   '0 -28 Td',
   '/F2 12 Tf',
   '(ACADEMIC BACKGROUND) Tj',

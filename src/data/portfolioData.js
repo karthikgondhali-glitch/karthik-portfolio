@@ -41,13 +41,13 @@ export const projectLinks = {
 
   // 5. NeuroFeed (EdTech / AI)
   neuroFeed: {
-    githubUrl: "https://github.com/karthikgondhali-glitch/neurofeed-ai", // <-- PASTE GITHUB REPO HERE
+    githubUrl: null, // <-- PASTE GITHUB REPO HERE
     demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
   },
 
   // 6. CrisisGrid AI (AI / Disaster Relief)
   crisisGrid: {
-    githubUrl: "https://github.com/karthikgondhali-glitch/crisisgrid-ai", // <-- PASTE GITHUB REPO HERE
+    githubUrl: "https://github.com/karthikgondhali-glitch/crisise-guide-AI.git", // <-- PASTE GITHUB REPO HERE
     demoUrl: null, // <-- PASTE LIVE WEBSITE LINK HERE or null
   }
 };
@@ -64,7 +64,7 @@ export const personalData = {
   ],
   roleSubtitle: "Computer Science & Engineering Student | Aspiring Backend Developer | AI Enthusiast",
   bio: "I'm a CSE student passionate about backend development, artificial intelligence, and full-stack engineering. I enjoy exploring new technologies, participating in hackathons, and developing practical solutions to real-world problems.",
-  
+
   // Status and Availability
   availability: {
     status: "Available for Collaboration & Hackathons",
@@ -74,9 +74,9 @@ export const personalData = {
 
   // Contact Information
   contact: {
-    email: "karthikvg.official@gmail.com", // Replace with your primary email
-    github: "https://github.com/karthikgondhali-glitch",
-    linkedin: "https://www.linkedin.com/in/karthik-v-g/", // Update with your actual LinkedIn URL
+    email: "kvg0068@gmail.com", // Replace with your primary email
+    github: "https://github.com/karthik7code",
+    linkedin: "https://www.linkedin.com/in/karthik-v-g-3ba342374", // Update with your actual LinkedIn URL
     location: "Bengaluru, Karnataka, India",
     college: "Gopalan College of Engineering and Management, Bengaluru"
   },
@@ -93,7 +93,7 @@ export const aboutData = {
   badge: "About My Journey",
   heading: "A Curious Mind. A Builder's Mindset.",
   introParagraph: "As an engineering student at Gopalan College of Engineering and Management, Bengaluru, I approach technology not just as code to compile, but as a discipline of crafting resilient, purposeful systems. I am fundamentally driven by curiosity — diving deep beneath surface abstractions to grasp how operating systems manage resources, how databases optimize queries, and how scalable backends endure real-world loads.",
-  
+
   highlights: [
     {
       title: "Backend Engineering Focus",
@@ -138,7 +138,7 @@ export const aboutData = {
 export const skillsData = {
   sectionTitle: "Technical Skills",
   sectionSubtitle: "Categorized competencies with honest proficiency indicators — from established foundations to active explorations.",
-  
+
   categories: [
     {
       id: "programming",
